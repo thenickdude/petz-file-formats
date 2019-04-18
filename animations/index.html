@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Petz animation decoder</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<style type="text/css">
+		body {
+			overflow:hidden;
+			height:100%;
+		}
+		#container {
+			position:absolute;
+			top:0;
+			left:0;
+			right:0;
+			bottom:0;
+			display:flex;
+			flex-direction: column;
+			padding-top:15px;
+			padding-bottom:15px;
+		}
+		canvas {
+			flex-grow:1;
+			flex-shrink:1;
+		}
+	</style>
+</head>
+<body>
+	<div id="container" class="container-fluid">
+		<div class="alert alert-primary">
+			<a href="../" class="btn btn-primary">Return to the index</a>
+			Click on the window to advance to the next animation, scroll to zoom
+		</div>
+	</div>
+	<script src="bundle.js"></script>
+</body>
+</html>

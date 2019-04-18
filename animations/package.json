@@ -1,0 +1,19 @@
+{
+  "name": "animation-decoder",
+  "version": "1.0.0",
+  "description": "Decodes BHD and BHT animations",
+  "main": "index.js",
+  "scripts": {
+    "start": "browserify -t brfs index.js -o bundle.js"
+  },
+  "author": "Nicholas Sherlock",
+  "license": "BSD-1-Clause",
+  "dependencies": {
+    "binary-parser": "git+https://github.com/thenickdude/binary-parser.git#for-browser",
+    "three": "^0.103.0"
+  },
+  "devDependencies": {
+    "brfs": "^2.0.2",
+    "browserify": "^16.2.3"
+  }
+}
